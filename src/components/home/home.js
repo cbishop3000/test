@@ -13,7 +13,6 @@ const home = () => {
         <div className='divider-info'>
             
         </div>
-        <div>home</div>
     </div>
     
   )
