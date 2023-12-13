@@ -3,9 +3,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
-    color: white;
+    background-color: #fff;
+    color: #333;
     padding: 10px 20px;
+    font-size: 18px;
   }
   
   .navbar-logo {
@@ -28,7 +29,7 @@
   .bar {
     width: 25px;
     height: 3px;
-    background-color: white;
+    background-color: #333;
     margin: 4px 0;
     transition: 0.4s;
   
@@ -39,7 +40,7 @@
   }
   
   .navbar-links a {
-    color: white;
+    color: #333;
     text-decoration: none;
     padding: 8px;
     margin-right: 20px;
@@ -64,10 +65,11 @@
       display: none;
       position: absolute;
       top: 139px;
-      background-color: #333;
+      background-color: #fff;
       left: 0;
       justify-content: space-around;
       width: 100%;
+      box-shadow: 0px 1px 2px 0px #333;
     }
   
     .navbar-links.open {
