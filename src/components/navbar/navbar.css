@@ -31,6 +31,7 @@
     background-color: white;
     margin: 4px 0;
     transition: 0.4s;
+  
   }
   
   .navbar-links {
@@ -65,7 +66,7 @@
       top: 139px;
       background-color: #333;
       left: 0;
-      padding: 10px;
+      justify-content: space-around;
       width: 100%;
     }
   
