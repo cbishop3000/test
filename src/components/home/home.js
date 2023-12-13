@@ -11,6 +11,7 @@ import ImageFour from '../images/hvacfour.jpg'
 import ImageFive from '../images/hvacfive.jpg'
 import ImageSix from '../images/hvacsix.jpg'
 
+import Logo from '../images/hvaclogo.png'
 
 const home = () => {
   return (
@@ -22,14 +23,19 @@ const home = () => {
             
         </div>
         <div className='section-one'>
+            {/* <div>BluGreen </div>
+            <div>Heating And Cooling Systems</div> */}
+            <img className='title' src={Logo} alt="logo"/>
+        </div>
+        <div className='section-two'>
           <div className='carousel-home-container'>
             <Carousel 
               images={[ImageOne, ImageTwo, ImageThree, ImageFour, ImageFive, ImageSix]}
             />
           </div>
           <div className='informational'>
-            <div className='title'>Hi</div>
-            <div className='content-one'>This is stuff</div>
+            <div className='content-title'>Hi</div>
+            <div className='content-two'>This is stuff</div>
           </div>
         </div>
     </div>

@@ -4,8 +4,6 @@ import './navbar.css';
 
 import Logo from '../images/hvaclogo.png'
 
-
-
 const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
 

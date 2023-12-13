@@ -1,5 +1,50 @@
+body, * {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .divider-info {
     height: 40px;
     background-color: #ffe391;
     width: 100%;
+}
+
+.section-two {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+    top: 150px;
+    position: relative;
+    flex: 1;
+}
+
+.informational {
+    margin: 10px;
+}
+
+.section-one {
+    top: 80px;
+    position: relative;
+}
+
+.title {
+    width: 300px;
+    margin: auto;
+    height: 200px;
+}
+
+@media (max-width: 768px) {
+
+    .section-two {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        flex: 1;
+    }
+    
+    .section-one {
+        top: 80px;
+        position: relative;
+    }
+
 }
